@@ -1,1 +1,1 @@
-Atlas Python Projects
+Atlas Python Project

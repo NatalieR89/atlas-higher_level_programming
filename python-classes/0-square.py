@@ -6,4 +6,5 @@ This class don't do anything right now
 """
 
 class Square:
+    '''MT'''
     pass

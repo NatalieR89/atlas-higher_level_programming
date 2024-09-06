@@ -18,3 +18,4 @@ class Square:
         '''area class'''
         
         return self.__size ** 2
+    

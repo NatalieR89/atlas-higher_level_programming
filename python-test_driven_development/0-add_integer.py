@@ -16,3 +16,8 @@ def add_integer(a, b=98):
     b = int(b)
 
     return a + b
+
+print(add_integer(10, 20))
+print(add_integer(10))
+print(add_integer(10.5, 20))
+print(add_integer(10, "20"))

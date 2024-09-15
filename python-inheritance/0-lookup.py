@@ -7,3 +7,4 @@ def lookup(obj):
     '''method'''
 
     return dir(obj)
+

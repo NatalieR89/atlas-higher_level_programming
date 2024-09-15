@@ -3,4 +3,7 @@
 '''module'''
 
 class BaseGeometry:
+
+    '''class'''
+    
     pass

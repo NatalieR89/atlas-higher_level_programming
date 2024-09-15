@@ -5,5 +5,5 @@
 def lookup(obj):
 
     '''method'''
-    
-    return lookup(obj)
+
+    return dir(obj)

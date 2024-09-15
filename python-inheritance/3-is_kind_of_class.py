@@ -4,6 +4,6 @@
     
 def is_same_class(obj, a_class):
 
-    '''method'''
+    '''function'''
 
     return type(obj) is a_class

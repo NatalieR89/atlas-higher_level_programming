@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 '''
-module
+Script that adds all arguments to a Python list,
+then saves them to a file
 '''
 
 

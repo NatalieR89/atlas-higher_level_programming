@@ -1,0 +1,43 @@
+class BaseGeometry:
+    """
+    A class used to represent BaseGeometry
+
+    Methods
+    -------
+    area():
+        Raises an Exception with the message 'area() is not implemented'
+    integer_validator(name, value):
+        Validates that value is a positive integer
+    """
+
+    def area(self):
+        """
+        Raises an Exception with the message 'area() is not implemented'
+
+        >>> bg = BaseGeometry()
+        >>> bg.area()
+        Traceback (most recent call last):
+            ...
+        Exception: area() is not implemented
+        """
+        raise Exception("area() is not implemented")
+
+    def integer_validator(self, name, value):
+        """
+        Validates that value is a positive integer
+
+        >>> bg = BaseGeometry()
+        >>> bg.integer_validator("age", 5)
+        >>> bg.integer_validator("age", -5)
+        Traceback (most recent call last):
+            ...
+        ValueError: age must be greater than 0
+        >>> bg.integer_validator("age", "five")
+        Traceback (most recent call last):
+            ...
+        TypeError: age must be an integer
+        """
+        if not isinstance(value, int):
+            raise TypeError(f"{name} must be an integer")
+        if value <= 0:
+            raise ValueError(f"{name} must be greater than 0")

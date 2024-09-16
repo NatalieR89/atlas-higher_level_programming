@@ -12,7 +12,7 @@ def pascal_triangle(n):
         row = [1]
     for b in range(1, a):
         row.append(triangle[a-1][b-1] + triangle[a-1][b])
-        row.append(1)
-        triangle.append(row)
+    row.append(1)
+    triangle.append(row)
 
     return triangle

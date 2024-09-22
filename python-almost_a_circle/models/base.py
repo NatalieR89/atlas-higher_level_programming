@@ -84,4 +84,3 @@ class Base:
                 instances.append(cls.create(**elem))
 
             return instances
-        
